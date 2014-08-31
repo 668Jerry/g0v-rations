@@ -15,7 +15,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        self.uiivLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(25, 0, 30, 20)];
+        self.uiivLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(25, 26, 30, 20)];
         [self.contentView addSubview:self.uiivLabel1];
         self.uiivLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(55, 10, 250, 20)];
         [self.contentView addSubview:self.uiivLabel2];

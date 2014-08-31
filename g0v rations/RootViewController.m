@@ -138,6 +138,8 @@
     [self setButton];
     [self setScout];
     [self setMyPicker];
+    delegate.nssSelectedAttribute1 = [nsaPickerList objectAtIndex:0];
+    delegate.nssSelectedAttribute2 = [nsaPickerList objectAtIndex:1];
     // Do any additional setup after loading the view.
 }
 

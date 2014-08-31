@@ -252,7 +252,7 @@
 //    }
 
     NSLog(@"%@", delegate.nssSelectedAttribute1);
-    cell.uiivLabel1.text = [NSString stringWithFormat:@"%ld", (long)indexPath.row];
+    cell.uiivLabel1.text = [NSString stringWithFormat:@"%ld", (long)indexPath.row + 1];
     cell.uiivLabel2.text = [NSString stringWithFormat:@"%@: %@", delegate.nssSelectedAttribute1, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:delegate.nssSelectedAttribute1]];
     cell.uiivLabel3.text = [NSString stringWithFormat:@"%@: %@", delegate.nssSelectedAttribute2, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:delegate.nssSelectedAttribute2]];
     return cell;
