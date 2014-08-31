@@ -15,8 +15,12 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        self.uiivLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 1000, 72)];
-        [self.contentView addSubview:self.uiivLabel];
+        self.uiivLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(25, 0, 40, 72)];
+        [self.contentView addSubview:self.uiivLabel1];
+        self.uiivLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(45, -20, 150, 20)];
+        [self.contentView addSubview:self.uiivLabel2];
+        self.uiivLabel3 = [[UILabel alloc] initWithFrame:CGRectMake(45, 20, 150, 20)];
+        [self.contentView addSubview:self.uiivLabel3];
     }
     self.backgroundColor = [UIColor clearColor];
     return self;

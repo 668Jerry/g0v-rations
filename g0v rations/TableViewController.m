@@ -150,6 +150,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [self prepareTable];
 //    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 6.0)
 //        [[UIApplication sharedApplication] setStatusBarOrientation:UIDeviceOrientationLandscapeLeft animated:NO];
@@ -245,12 +246,15 @@
 //        }
 //    }
     
-    for (NSString* key in [self.nsmaOutputTable objectAtIndex:indexPath.row]) {
-//        NSLog(@"%@", key);
-        nssTmp = [NSString stringWithFormat:@"%@, %@:%@", nssTmp, key, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:key]];
-    }
+//    for (NSString* key in [self.nsmaOutputTable objectAtIndex:indexPath.row]) {
+////        NSLog(@"%@", key);
+//        nssTmp = [NSString stringWithFormat:@"%@, %@:%@", nssTmp, key, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:key]];
+//    }
 
-    cell.uiivLabel.text = [NSString stringWithFormat:@"%@", nssTmp];
+    NSLog(@"%@", delegate.nssSelectedAttribute1);
+    cell.uiivLabel1.text = [NSString stringWithFormat:@"%ld", (long)indexPath.row];
+    cell.uiivLabel2.text = [NSString stringWithFormat:@"%@: %@", delegate.nssSelectedAttribute1, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:delegate.nssSelectedAttribute1]];
+    cell.uiivLabel3.text = [NSString stringWithFormat:@"%@: %@", delegate.nssSelectedAttribute2, [[self.nsmaOutputTable objectAtIndex:indexPath.row] valueForKey:delegate.nssSelectedAttribute2]];
     return cell;
 }
 

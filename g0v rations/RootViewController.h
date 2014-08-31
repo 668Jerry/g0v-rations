@@ -17,6 +17,7 @@
     NSMutableArray *nsmaPickerList1;
     NSMutableArray *nsmaPickerList2;
     NSMutableArray *nsmaPickerList3;
+    AppDelegate *delegate;
 }
 @property UIPickerView *picker;
 

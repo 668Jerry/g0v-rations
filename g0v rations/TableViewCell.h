@@ -10,6 +10,8 @@
 
 @interface TableViewCell : UITableViewCell
 
-@property (strong, nonatomic) UILabel *uiivLabel;
+@property (strong, nonatomic) UILabel *uiivLabel1;
+@property (strong, nonatomic) UILabel *uiivLabel2;
+@property (strong, nonatomic) UILabel *uiivLabel3;
 
 @end

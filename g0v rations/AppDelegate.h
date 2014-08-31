@@ -16,6 +16,9 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (strong, nonatomic) NSString *nssSelectedAttribute1;
+@property (strong, nonatomic) NSString *nssSelectedAttribute2;
+@property (strong, nonatomic) NSString *nssSelectedAttribute3;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

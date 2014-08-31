@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface TableViewController : UITableViewController
+{
+    AppDelegate *delegate;
+}
 
 @property NSMutableArray *nsmaOutputTable;
 

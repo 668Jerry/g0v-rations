@@ -45,19 +45,13 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-//    if (component == 0) {
-//        list2 = [NSMutableArray new];//[NSMutableArray arrayWithArray:[stationInfo getStationOfCity:0]];
-//        for (id object in [NSMutableArray arrayWithArray:[self getStationOfCity:(long)row]]) {
-//            [list2 addObject:[nsaStationChinese258 objectAtIndex:[object integerValue]]];
-//        }
-//        [pickerView reloadAllComponents];
-//        [pickerView selectRow:[self getRecommandOfCity:row] inComponent:1 animated:YES];
-//    } else if (component == 1) {
-//        //        NSLog(@"Selected%@", [list2 objectAtIndex:row]);
-//        delegate.nsiUserInputStation = (long)row;
-//        delegate.nssUserInputStationNumber = nsaStationNumber258[delegate.nsiUserInputStation];
-//        delegate.nssUserInputStationChinese = nsaStationChinese258[delegate.nsiUserInputStation];
-//    }
+    if (component == 0) {
+        delegate.nssSelectedAttribute1 = [nsaPickerList objectAtIndex:(long)row];
+        NSLog(@"%@", delegate.nssSelectedAttribute1);
+    } else if (component == 1) {
+        delegate.nssSelectedAttribute2 = [nsaPickerList objectAtIndex:(long)row];
+        NSLog(@"%@", delegate.nssSelectedAttribute2);
+    }
 }
 
 # pragma mark UIPickerViewDataSource
@@ -140,6 +134,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [self setButton];
     [self setScout];
     [self setMyPicker];
