@@ -12,6 +12,15 @@
 		8F71F3E819AF859600CFD94B /* g0v_rations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F3E619AF859600CFD94B /* g0v_rations.xcdatamodeld */; };
 		8F71F3EA19AF859600CFD94B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F71F3E919AF859600CFD94B /* Images.xcassets */; };
 		8F71F3F619AF859600CFD94B /* g0v_rationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F3F519AF859600CFD94B /* g0v_rationsTests.m */; };
+		8F71F40119B07B1E00CFD94B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F40019B07B1E00CFD94B /* TableViewController.m */; };
+		8F71F40419B07C5700CFD94B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F40319B07C5700CFD94B /* NavigationController.m */; };
+		8F71F40719B086B300CFD94B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F40619B086B300CFD94B /* TableViewCell.m */; };
+		8F71F40919B0DE3D00CFD94B /* 失業率.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F71F40819B0DE3D00CFD94B /* 失業率.xml */; };
+		8F71F40C19B0DF0D00CFD94B /* myParseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F40B19B0DF0D00CFD94B /* myParseDelegate.m */; };
+		8F71F40F19B2B50400CFD94B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F40E19B2B50400CFD94B /* RootViewController.m */; };
+		8F71F41719B2BEE300CFD94B /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F71F41619B2BEE300CFD94B /* clock@2x.png */; };
+		8F71F41B19B2C02200CFD94B /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F71F41A19B2C02200CFD94B /* search@2x.png */; };
+		8F71F41E19B2C57700CFD94B /* scoutParseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F71F41D19B2C57700CFD94B /* scoutParseDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 		8F71F3EF19AF859600CFD94B /* g0v rationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "g0v rationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F71F3F419AF859600CFD94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F71F3F519AF859600CFD94B /* g0v_rationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = g0v_rationsTests.m; sourceTree = "<group>"; };
+		8F71F3FF19B07B1E00CFD94B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8F71F40019B07B1E00CFD94B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8F71F40219B07C5700CFD94B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		8F71F40319B07C5700CFD94B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		8F71F40519B086B300CFD94B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		8F71F40619B086B300CFD94B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		8F71F40819B0DE3D00CFD94B /* 失業率.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "失業率.xml"; sourceTree = "<group>"; };
+		8F71F40A19B0DF0D00CFD94B /* myParseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myParseDelegate.h; sourceTree = "<group>"; };
+		8F71F40B19B0DF0D00CFD94B /* myParseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myParseDelegate.m; sourceTree = "<group>"; };
+		8F71F40D19B2B50400CFD94B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8F71F40E19B2B50400CFD94B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8F71F41619B2BEE300CFD94B /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		8F71F41A19B2C02200CFD94B /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		8F71F41C19B2C57700CFD94B /* scoutParseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoutParseDelegate.h; sourceTree = "<group>"; };
+		8F71F41D19B2C57700CFD94B /* scoutParseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoutParseDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,19 @@
 			children = (
 				8F71F3E319AF859600CFD94B /* AppDelegate.h */,
 				8F71F3E419AF859600CFD94B /* AppDelegate.m */,
+				8F71F40D19B2B50400CFD94B /* RootViewController.h */,
+				8F71F40E19B2B50400CFD94B /* RootViewController.m */,
+				8F71F41C19B2C57700CFD94B /* scoutParseDelegate.h */,
+				8F71F41D19B2C57700CFD94B /* scoutParseDelegate.m */,
+				8F71F40219B07C5700CFD94B /* NavigationController.h */,
+				8F71F40319B07C5700CFD94B /* NavigationController.m */,
+				8F71F40A19B0DF0D00CFD94B /* myParseDelegate.h */,
+				8F71F40B19B0DF0D00CFD94B /* myParseDelegate.m */,
+				8F71F3FF19B07B1E00CFD94B /* TableViewController.h */,
+				8F71F40019B07B1E00CFD94B /* TableViewController.m */,
+				8F71F40519B086B300CFD94B /* TableViewCell.h */,
+				8F71F40619B086B300CFD94B /* TableViewCell.m */,
+				8F71F40819B0DE3D00CFD94B /* 失業率.xml */,
 				8F71F3E919AF859600CFD94B /* Images.xcassets */,
 				8F71F3E619AF859600CFD94B /* g0v_rations.xcdatamodeld */,
 				8F71F3DF19AF859600CFD94B /* Supporting Files */,
@@ -89,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				8F71F3E019AF859600CFD94B /* Info.plist */,
+				8F71F41619B2BEE300CFD94B /* clock@2x.png */,
+				8F71F41A19B2C02200CFD94B /* search@2x.png */,
 				8F71F3E119AF859600CFD94B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -190,7 +229,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F71F41B19B2C02200CFD94B /* search@2x.png in Resources */,
 				8F71F3EA19AF859600CFD94B /* Images.xcassets in Resources */,
+				8F71F41719B2BEE300CFD94B /* clock@2x.png in Resources */,
+				8F71F40919B0DE3D00CFD94B /* 失業率.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F71F41E19B2C57700CFD94B /* scoutParseDelegate.m in Sources */,
 				8F71F3E819AF859600CFD94B /* g0v_rations.xcdatamodeld in Sources */,
+				8F71F40719B086B300CFD94B /* TableViewCell.m in Sources */,
+				8F71F40F19B2B50400CFD94B /* RootViewController.m in Sources */,
 				8F71F3E519AF859600CFD94B /* AppDelegate.m in Sources */,
+				8F71F40419B07C5700CFD94B /* NavigationController.m in Sources */,
 				8F71F3E219AF859600CFD94B /* main.m in Sources */,
+				8F71F40C19B0DF0D00CFD94B /* myParseDelegate.m in Sources */,
+				8F71F40119B07B1E00CFD94B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +434,7 @@
 				8F71F3FB19AF859600CFD94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F71F3FC19AF859600CFD94B /* Build configuration list for PBXNativeTarget "g0v rationsTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +443,7 @@
 				8F71F3FE19AF859600CFD94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NavigationController.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
             
@@ -21,8 +23,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    ///不能刪，建表格時還會用到
+//    TableViewController *tvc = [[TableViewController alloc] init];
+//    NavigationController * nc = [[NavigationController alloc]initWithRootViewController:tvc];
+//    self.window.rootViewController = nc;
+
+    RootViewController *rvc = [[RootViewController alloc] init];
+    NavigationController * nc = [[NavigationController alloc]initWithRootViewController:rvc];
+    self.window.rootViewController = nc;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:nc.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
